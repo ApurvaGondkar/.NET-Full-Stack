@@ -1,2 +1,2 @@
 # .NET-Full-Stack
-Capgemini Traning
+Capgemini Tranning
