@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 is_global = true
 build_property.RootNamespace = OOP_Assignment_5Q1
 build_property.ProjectDir = C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q1\
+=======
+is_global = true
+build_property.RootNamespace = OOP_Assignment_5Q1
+build_property.ProjectDir = C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q1\
+>>>>>>> fa9fff6ce3abd128d0d6bdece9793e6d72a87386

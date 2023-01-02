@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "ceidm6EVWJKJSg1DeFB2agpDPEUc/IIpDJLK3kNEylOJvn4e5zZ+5XLWygrPxm55PCI1s94G1xD0F1Lt8HoPCg==",
@@ -5,4 +6,13 @@
   "projectFilePath": "C:\\Users\\APGONDKA\\source\\repos\\OOP_Assignment_5Q3\\OOP_Assignment_5Q3.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "ceidm6EVWJKJSg1DeFB2agpDPEUc/IIpDJLK3kNEylOJvn4e5zZ+5XLWygrPxm55PCI1s94G1xD0F1Lt8HoPCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\APGONDKA\\source\\repos\\OOP_Assignment_5Q3\\OOP_Assignment_5Q3.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> fa9fff6ce3abd128d0d6bdece9793e6d72a87386
 }
