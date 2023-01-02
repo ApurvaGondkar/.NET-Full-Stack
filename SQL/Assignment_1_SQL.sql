@@ -1,4 +1,4 @@
-Select * From Costomer
+Select * From	Costomer
 
 Select Country 
 from Costomer where Country like 'A%' or Country like 'I%'
