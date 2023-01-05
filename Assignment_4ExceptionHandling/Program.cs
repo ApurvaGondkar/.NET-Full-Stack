@@ -69,6 +69,7 @@ namespace Assignment_4ExceptionHandling
                 Console.WriteLine(st);
             }
         }
+        public bool car { get; set; }
         public void display()
         {
             Console.WriteLine("S\n---Printing---");

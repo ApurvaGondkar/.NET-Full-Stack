@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APGONDKA\\source\\repos\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj": {}
+    "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APGONDKA\\source\\repos\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj": {
+    "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APGONDKA\\source\\repos\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj",
+        "projectUniqueName": "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj",
         "projectName": "Assignment_4ExceptionHandling",
-        "projectPath": "C:\\Users\\APGONDKA\\source\\repos\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj",
+        "projectPath": "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\Assignment_4ExceptionHandling\\Assignment_4ExceptionHandling.csproj",
         "packagesPath": "C:\\Users\\APGONDKA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APGONDKA\\source\\repos\\Assignment_4ExceptionHandling\\obj\\",
+        "outputPath": "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\Assignment_4ExceptionHandling\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APGONDKA\\AppData\\Roaming\\NuGet\\NuGet.Config",

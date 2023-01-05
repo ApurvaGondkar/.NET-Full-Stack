@@ -2,146 +2,114 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOP_Assignment_3
+namespace OOP_Assignment_2
 {
     class Employee
     {
-        private int empno;
-        private string empname;
-        private double salary;
-        private double HRA;
-        private double TA;
-        private double DA;
-        private double PF;
-        private double TDS;
-        private double netsalary;
-        private double grosssalary;
-        public int Empno { get; set; }
-        public string Empname { get; set; }
-        public double Salary { get; set; }
-        public double hra { get; set; }
-        public double ta { get; set; }
-        public double da { get; set; }
-        public double pf { get; set; }
-        public double tds { get; set; }
-        public double Netsalary { get; set; }
-        public double Grosssalary { get; set; }
+        private int EmpNo;
+        private string EmpName;
+        private double Salary;
+        private double hra;
+        private double ta;
+        private double da;
+        private double pf;
+        private double tds;
+        private double NetSalary;
+        private double GrossSalary;
+        public int EMPNO { get; set; }
+        public string EMPNAME { get; set; }
+        public double SALARY { get; set; }
+        public double HRA { get; set; }
+        public double TA { get; set; }
+        public double DA { get; set; }
+        public double PF { get; set; }
+        public double TDS { get; set; }
+        public double NETSALARY { get; set; }
+        public double GROSSSALARY { get; set; }
 
-        public Employee()
-        //(int empno, string empname, double salary, double HRA, double TA, double DA, double PF, double TDS, double netsalary, double grosssalary)
-
+        public Employee(int EmpNo, String EmpName, double Salary)
+        //int EmpNo, string EmpName, double Salary, double hra, double ta, double da, double pf, double tds, double NetSalary, double GrossSalary
         {
-            this.pf = PF;
-            this.tds = TDS;
-            this.Netsalary = netsalary;
-            this.grosssalary = Grosssalary;
-
+            this.EMPNO = EmpNo;
+            this.EMPNAME = EmpName;
+            this.SALARY = Salary;
+            this.HRA = hra;
+            this.TA = ta;
+            this.DA = da;
+            this.PF = pf;
+            this.TDS = tds;
+            this.NETSALARY = NetSalary;
+            this.GROSSSALARY = GrossSalary;
         }
-
         public void DisplayEmpDetails()
         {
-            Console.WriteLine("The Emp NO is " + Empno + " The Emp Name is " + Empname + " The Emp Salary is " + Salary + " The Emp hra is " + hra + " The Emp ta is " + ta + " The Emp da is " + da + " The Emp pf is " + pf + " The Emp tds is " + tds + "The Emp Netsalary is " + Netsalary + "The Emp net Grosssalary is" + Grosssalary);
+            Console.WriteLine("The Emp No is " + EMPNO);
+            Console.WriteLine("The Emp Name is " + EMPNAME);
+            Console.WriteLine("The Emp Salary is " + SALARY);
+            Console.WriteLine("The Emp HRA is " + HRA);
+            Console.WriteLine("The Emp TA is " + TA);
+            Console.WriteLine("The Emp DA is " + DA);
+            Console.WriteLine("The Emp PF is " + PF);
+            Console.WriteLine("The Emp TDS is " + TDS);
+            Console.WriteLine("The Emp Gross Salary is " + GROSSSALARY);
+            Console.WriteLine("The Emp Net Salary is " + NETSALARY);
+            //Console.WriteLine("The Emp Id is  " + EMPNO + " The Emp Name is " + EMPNAME + " The Emp Salary is " + SALARY + " The Emp HRA is " + HRA + " The Emp TA is " + TA + " The Emp DA is " + DA + " The Emp PF is " + PF + " The Emp TDS is " + TDS + " The Emp Netsalary is " + NETSALARY + " The Emp gross salary is " + GROSSSALARY);
         }
-
         public void CalculateDetails()
-
         {
-            if (Salary < 5000)
+            if (SALARY < 5000)
             {
-                hra = (Salary * 10) / 100;
-                ta = (Salary * 5) / 100;
-                da = (Salary * 15) / 100;
-                grosssalary = (Salary + hra + ta + da);
-                pf = (grosssalary * 10 / 100);
-                tds = (grosssalary * 18 / 100);
-                Netsalary = (pf + tds);
+                HRA = (10 * SALARY) / 100;
+                TA = (5 * SALARY) / 100;
+                DA = (15 * SALARY) / 100;
+                GROSSSALARY = SALARY + HRA + TA + DA;
+                PF = (10 * GROSSSALARY) / 100;
+                TDS = (18 * GROSSSALARY) / 100;
+                NETSALARY = GROSSSALARY - (PF + TDS);
+
+
             }
-            if (Salary < 10000)
+            else if (SALARY < 10000)
             {
-                hra = (Salary * 15) / 100;
-                ta = (Salary * 10) / 100;
-                da = (Salary * 20) / 100;
-                grosssalary = (Salary + hra + ta + da);
-                pf = (grosssalary * 10 / 100);
-                tds = (grosssalary * 18 / 100);
-                Netsalary = (pf + tds);
+                HRA = (15 * SALARY) / 100;
+                TA = (10 * SALARY) / 100;
+                DA = (20 * SALARY) / 100;
+                GROSSSALARY = SALARY + HRA + TA + DA;
+                PF = (10 * GROSSSALARY) / 100;
+                TDS = (18 * GROSSSALARY) / 100;
+                NETSALARY = GROSSSALARY - (PF + TDS);
             }
-            if (Salary < 15000)
+            else if (SALARY < 15000)
             {
-                hra = (Salary * 20) / 100;
-                ta = (Salary * 15) / 100;
-                da = (Salary * 25) / 100;
-                grosssalary = (Salary + hra + ta + da);
-                pf = (grosssalary * 10 / 100);
-                tds = (grosssalary * 18 / 100);
-                Netsalary = (pf + tds);
+                HRA = (20 * SALARY) / 100;
+                TA = (15 * SALARY) / 100;
+                DA = (25 * SALARY) / 100;
+                GROSSSALARY = SALARY + HRA + TA + DA;
+                PF = (10 * GROSSSALARY) / 100;
+                TDS = (18 * GROSSSALARY) / 100;
+                NETSALARY = GROSSSALARY - (PF + TDS);
             }
-            if (Salary < 20000)
+            else if (SALARY < 20000)
             {
-                hra = (Salary * 25) / 100;
-                ta = (Salary * 20) / 100;
-                da = (Salary * 30) / 100;
-                grosssalary = (Salary + hra + ta + da);
-                pf = (grosssalary * 10 / 100);
-                tds = (grosssalary * 18 / 100);
-                Netsalary = (pf + tds);
+                HRA = (25 * SALARY) / 100;
+                TA = (20 * SALARY) / 100;
+                DA = (30 * SALARY) / 100;
+                GROSSSALARY = SALARY + HRA + TA + DA;
+                PF = (10 * GROSSSALARY) / 100;
+                TDS = (18 * GROSSSALARY) / 100;
+                NETSALARY = GROSSSALARY - (PF + TDS);
             }
-            if (Salary >= 20000)
+            else if (SALARY >= 20000)
             {
-                hra = (Salary * 30) / 100;
-                ta = (Salary * 25) / 100;
-                da = (Salary * 35) / 100;
-                grosssalary = (Salary + hra + ta + da);
-                pf = (grosssalary * 10 / 100);
-                tds = (grosssalary * 18 / 100);
-                Netsalary = (pf + tds);
-            }
-        
-        class Manager :Employee
-    {
-        double Petrol A;
-        double Food A;
-        double Other A;
-        double gs;
-
-        public new void CalculateGross()
-
-            {
-                Petrol A = Salary * 8 / 100;
-                Food A = Salary * 13 / 100;
-                Other A = Salary * 3 / 100;
-                base.CalculateEmpDetails();
-                gs=gs + Petrol A + Food A + Other A;
-            }
-            public override void CalculateEmpDetails()
-
-            {
-                double gs = Grosssalary;
-                pf = gs / 10;
-                tds = gs / 18;
-                Netsalary = gs - (pf + tds);
-
-
-            }
-            public void display()
-            {
-                Console.WriteLine("Emp No is :" + Empno);
-                Console.WriteLine("Emp Name is :" + Empname);
-                Console.WriteLine("Emp salaer is :" + Salary);
-                Console.WriteLine("Emp salaer is :" + HRA);
-                Console.WriteLine("Emp salaer is :" + TA);
-                Console.WriteLine("Emp salaer is :" + DA);
-                Console.WriteLine("Emp salaer is :" + PF);
-                Console.WriteLine("Emp salaer is :" + TDS);
-                Console.WriteLine("Emp salaer is :" + Grosssalary);
-                Console.WriteLine("Emp salaer is :" + Netsalary);
+                HRA = (30 * SALARY) / 100;
+                TA = (25 * SALARY) / 100;
+                DA = (35 * SALARY) / 100;
+                GROSSSALARY = SALARY + HRA + TA + DA;
+                PF = (10 * GROSSSALARY) / 100;
+                TDS = (18 * GROSSSALARY) / 100;
+                NETSALARY = GROSSSALARY - (PF + TDS);
             }
 
-
-
-
-
-            }
-
+        }
     }
 }

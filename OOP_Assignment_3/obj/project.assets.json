@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APGONDKA\\source\\repos\\OOP_Assignment_3\\OOP_Assignment_3.csproj",
+      "projectUniqueName": "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\OOP_Assignment_3\\OOP_Assignment_3.csproj",
       "projectName": "OOP_Assignment_3",
-      "projectPath": "C:\\Users\\APGONDKA\\source\\repos\\OOP_Assignment_3\\OOP_Assignment_3.csproj",
+      "projectPath": "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\OOP_Assignment_3\\OOP_Assignment_3.csproj",
       "packagesPath": "C:\\Users\\APGONDKA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APGONDKA\\source\\repos\\OOP_Assignment_3\\obj\\",
+      "outputPath": "C:\\Users\\APGONDKA\\source\\repos\\.NET-Full-Stack\\OOP_Assignment_3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APGONDKA\\AppData\\Roaming\\NuGet\\NuGet.Config",

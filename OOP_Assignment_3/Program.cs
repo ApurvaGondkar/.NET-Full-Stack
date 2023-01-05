@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Assignment_3
 {
-    class Employee
+    public class Employee
     {
         private int empno;
         private string empname;

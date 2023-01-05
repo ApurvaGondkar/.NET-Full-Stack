@@ -1,0 +1,6 @@
+C:\Users\APGONDKA\source\repos\.NET-Full-Stack\TestEmployee\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Users\APGONDKA\source\repos\.NET-Full-Stack\TestEmployee\obj\Debug\netcoreapp3.1\TestEmployee.csproj.AssemblyReference.cache
+C:\Users\APGONDKA\source\repos\.NET-Full-Stack\TestEmployee\obj\Debug\netcoreapp3.1\TestEmployee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APGONDKA\source\repos\.NET-Full-Stack\TestEmployee\obj\Debug\netcoreapp3.1\TestEmployee.AssemblyInfoInputs.cache
+C:\Users\APGONDKA\source\repos\.NET-Full-Stack\TestEmployee\obj\Debug\netcoreapp3.1\TestEmployee.AssemblyInfo.cs
+C:\Users\APGONDKA\source\repos\.NET-Full-Stack\TestEmployee\obj\Debug\netcoreapp3.1\TestEmployee.csproj.CoreCompileInputs.cache
