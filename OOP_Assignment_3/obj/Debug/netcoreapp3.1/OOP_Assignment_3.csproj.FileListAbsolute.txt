@@ -12,7 +12,6 @@ C:\Users\APGONDKA\source\repos\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assi
 C:\Users\APGONDKA\source\repos\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assignment_3.dll
 C:\Users\APGONDKA\source\repos\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assignment_3.pdb
 C:\Users\APGONDKA\source\repos\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assignment_3.genruntimeconfig.cache
-C:\Users\APGONDKA\source\repos\.NET-Full-Stack\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assignment_3.csproj.AssemblyReference.cache
 C:\Users\APGONDKA\source\repos\.NET-Full-Stack\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assignment_3.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\APGONDKA\source\repos\.NET-Full-Stack\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assignment_3.AssemblyInfoInputs.cache
 C:\Users\APGONDKA\source\repos\.NET-Full-Stack\OOP_Assignment_3\obj\Debug\netcoreapp3.1\OOP_Assignment_3.AssemblyInfo.cs
