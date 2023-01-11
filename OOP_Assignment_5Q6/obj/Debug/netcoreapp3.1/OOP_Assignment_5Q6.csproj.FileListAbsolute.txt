@@ -1,0 +1,13 @@
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\bin\Debug\netcoreapp3.1\OOP_Assignment_5Q6.exe
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\bin\Debug\netcoreapp3.1\OOP_Assignment_5Q6.deps.json
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\bin\Debug\netcoreapp3.1\OOP_Assignment_5Q6.runtimeconfig.json
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\bin\Debug\netcoreapp3.1\OOP_Assignment_5Q6.runtimeconfig.dev.json
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\bin\Debug\netcoreapp3.1\OOP_Assignment_5Q6.dll
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\bin\Debug\netcoreapp3.1\OOP_Assignment_5Q6.pdb
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\obj\Debug\netcoreapp3.1\OOP_Assignment_5Q6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\obj\Debug\netcoreapp3.1\OOP_Assignment_5Q6.AssemblyInfoInputs.cache
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\obj\Debug\netcoreapp3.1\OOP_Assignment_5Q6.AssemblyInfo.cs
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\obj\Debug\netcoreapp3.1\OOP_Assignment_5Q6.csproj.CoreCompileInputs.cache
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\obj\Debug\netcoreapp3.1\OOP_Assignment_5Q6.dll
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\obj\Debug\netcoreapp3.1\OOP_Assignment_5Q6.pdb
+C:\Users\APGONDKA\source\repos\OOP_Assignment_5Q6\obj\Debug\netcoreapp3.1\OOP_Assignment_5Q6.genruntimeconfig.cache
